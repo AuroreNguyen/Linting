@@ -29,8 +29,6 @@ def update_item(index):
     return redirect(url_for('index'))
 
 
-# app.py
-from flask import Flask
 
 
 def create_app():

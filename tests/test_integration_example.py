@@ -3,9 +3,9 @@ from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 
-import app
-
 from app import create_app
+
+
 def test_health_endpoint():
     app = create_app()
     client = app.test_client()
